@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Treugolnik { public static void main(String[] args) {  
 
-    Scanner can = new Scanner(System.in);
-    System.out.println("Введите число n, для вычисления n-ого треугольного числа:");
+        Scanner iScanner = new Scanner(System.in);
+        System.out.println("Введите число n, для вычисления n-ого треугольного числа:");
 
-        int n = can.nextInt();
+        int n = iScanner.nextInt();
 
         if (n < 0) {
             System.out.println("Для отрицательных чисел треугольное число посчитать не получится.");
